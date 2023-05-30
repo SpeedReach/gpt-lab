@@ -1,0 +1,10 @@
+{"id": 14301, "label": "NOT ENOUGH INFO", "claim": "崔維斯·米勒是退役美國職業棒球大聯盟投手，目前于飛機擔任運動指導員。", "evidence": [[13414, null, null, null]], "predicted_pages": ["崔維斯·米勒"]}
+{"id": 2469, "label": "supports", "claim": "氣象衛星是一種人造衛星，可以呈現地球天氣的變化和大氣特徵。", "evidence": [[[2053, 2226, "氣象衛星", 0]]], "predicted_pages": ["氣象衛星"]}
+{"id": 7137, "label": "supports", "claim": "在臺灣臺南市東區虎尾寮重劃區裏面的臺南市東區復興國民小學，旁邊有復興國民中學。", "evidence": [[[6236, 6059, "臺南市東區復興國民小學", 0]]], "predicted_pages": ["臺南市東區復興國民小學"]}
+{"id": 13711, "label": "supports", "claim": "郭杲是宋朝的政治人物，曾逼光宗退位並扶持光宗次子趙擴繼位，即爲宋寧宗。", "evidence": [[[13103, 11342, "郭杲", 6]]], "predicted_pages": ["郭杲"]}
+{"id": 6625, "label": "supports", "claim": "英國皇家郵輪泰坦尼克號於1912年展開首航，目的地爲紐約。", "evidence": [[[13447, 11585, "泰坦尼克號", 0], [13447, 11585, "泰坦尼克號", 5]]], "predicted_pages": ["泰坦尼克號"]}
+{"id": 12058, "label": "NOT ENOUGH INFO", "claim": "中日之間八年戰爭的開始使得1937年臺灣進入戰時體制。", "evidence": [[11155, null, null, null]], "predicted_pages": ["1937年臺灣", "戰爭"]}
+{"id": 10981, "label": "supports", "claim": "王莽所建立的新朝被擁立更始帝的綠林軍所亡，新朝開創了中國歷史上透過篡位取得政權的先例。", "evidence": [[[9952, 9050, "新朝", 0], [9952, 9050, "新朝", 12], [9952, 9050, "新朝", 13], [9952, 9050, "新朝", 19]]], "predicted_pages": ["新朝"]}
+{"id": 10965, "label": "refutes", "claim": "阿登多夫在2018年的人口數據中爲女生多於男生。", "evidence": [[[10299, 9314, "阿登多夫", 1]]], "predicted_pages": ["阿登多夫"]}
+{"id": 3550, "label": "supports", "claim": "流產是指胚胎或胎兒發育到之前的自然死亡 。", "evidence": [[[12651, 10987, "流產", 1]]], "predicted_pages": ["流產"]}
+{"id": 5578, "label": "refutes", "claim": "被軟禁的張學良跟隨著國民政府遷臺，並直到蔣經國逝世後才由李登輝釋放，後來留學至美國。", "evidence": [[[4582, 4664, "張學良", 7]]], "predicted_pages": ["張學良"]}

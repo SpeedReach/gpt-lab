@@ -36,22 +36,20 @@ def process_test_file(i: int):
             data = json.loads(json_str)
             id = data["id"]
             prompt = data["claim"]
-        result = openai.Completion.create(
-            model=model,
-            prompt=prompt+end_of_prompt,
-            max_tokens=30,
-            temperature=0,
-            stop=["END"]
+            result = openai.Completion.create(
+                model=model,
+                prompt=prompt+end_of_prompt,
+                max_tokens=30,
+                temperature=0,
+                stop=["END"]
             )
-        predicted_pages = result["choices"][0]["text"].strip().split("\n")
-        predicted_pages = list(set(map(search_wiki, predicted_pages)))
-        json.dump({
-            "id":id,
-            "claim":prompt,
-            "predicted_pages":predicted_pages
-            },
-            output, ensure_ascii=False)
-        output.write("\n")
+            predicted_pages = result["choices"][0]["text"].strip().split("\n")
+            predicted_pages = list(set(map(search_wiki, predicted_pages)))
+            json.dump({
+                "id":id,
+                "claim":prompt,
+                "predicted_pages":predicted_pages
+                }, output, ensure_ascii=False)
+            output.write("\n")
 
 process_test_file(0)
-process_test_file(1)
